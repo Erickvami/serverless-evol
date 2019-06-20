@@ -1,0 +1,8 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  pso-fn:
+    lang: node
+    handler: ./pso-fn
+    image: erickvaminguela/pso-fn:latest

@@ -1,0 +1,8 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  ga-fn:
+    lang: node
+    handler: ./ga-fn
+    image: erickvaminguela/ga-fn:latest
